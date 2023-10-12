@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes Legends V2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--Campo para criação do herói -->
+    <div class="hero-card">
+        <h1>Crie Seu Herói</h1>
+        <input type="text" id="hero-name-input" placeholder="Nome do Herói">
+        <input type="number" id="hero-age-input" placeholder="Idade">
+        <select id="hero-type-select">
+            <option value="mago">Mago</option>
+            <option value="guerreiro">Guerreiro</option>
+            <option value="monge">Monge</option>
+            <option value="ninja">Ninja</option>
+        </select>
+        <button id="create-hero-button">Criar Herói</button>
+    </div>
+<!-- Campo para demonstrar ao informaçoes do herói e tipo do ataque-->
+    <div class="hero-card" id="hero-card" style="display: none;">
+        <h1><span id="hero-name"></span></h1>
+        <img id="hero-image" src="" alt="Imagem do Herói" width="50" height="50">
+        <p>Idade: <span id="hero-age">30</span></p>
+        <p>Tipo: <span id="hero-type">Guerreiro</span></p>
+        <button id="attack-button">Atacar</button>
+        <p id="attack-result">Aguardando ataque...</p>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-image: linear-gradient( to right, rgb(0, 0, 0), rgb(73, 73, 73), rgb(167, 166, 166), rgb(255, 255, 255) );
+}
+
+.hero-card {
+    border: 5px solid #00ff73;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border-style: dashed;
+    border-color: #00ff73;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00ff73;
+}
